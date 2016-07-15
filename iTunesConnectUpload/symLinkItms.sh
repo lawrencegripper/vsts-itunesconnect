@@ -1,0 +1,1 @@
+ln -sfn /Applications/Xcode.app/Contents/Applications/Application\ Loader.app/Contents/itms/ /usr/local/itms

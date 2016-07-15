@@ -1,0 +1,22 @@
+{
+  "name": "vsts-tasks-shellscript",
+  "version": "1.0.0",
+  "description": "itunesconnect",
+  "main": "shellscript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Lawrence Gripper",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "vsts-task-lib": "^0.8.2"
+  }
+}

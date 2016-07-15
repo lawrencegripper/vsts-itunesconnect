@@ -1,0 +1,36 @@
+{
+    "manifestVersion": 1,
+    "id": "itunesconnect-tasks",
+    "name": "iTunes Connect IPA Uploader",
+    "version": "0.0.1",
+    "publisher": "lawrencegripper",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Tools for building with Fabrikam. Includes two build tasks.",
+    "categories": [
+        "Build and release"
+    ],
+    "icons": {
+        "default": "extension-icon.png"        
+    },
+    "files": [
+        {
+            "path": "iTunesConnectUpload"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "itunesconnect-uploadtask",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "iTunesConnectUpload"
+            }
+        }
+    ]
+}
