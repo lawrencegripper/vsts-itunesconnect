@@ -34,12 +34,9 @@ async function run() {
 
             console.log("Uploading file " + ipaFile);
             var altTool = tl.createToolRunner(pathToAlTool);
-		    
+
             var args = "--upload-app -f \"" + ipaFile + "\" -t iOs -u " + username + " -p " + password;
             
-            console.log("With Args: ");
-            console.log(args);
-
             altTool.argString(args);
 
             var code: number = await altTool.exec(<any>{failOnStdErr: failOnStdErr});

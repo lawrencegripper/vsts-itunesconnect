@@ -49,7 +49,7 @@
             "label": "Password",
             "defaultValue": "",
             "required": true,
-            "helpMarkDown": "iTunesConnect password"
+            "helpMarkDown": "iTunesConnect password N.B: This will likely be visible in the build output. Happy to accept a PR to resolve this if anyone is willing!"
         },
         {
             "name": "failOnStandardError",
