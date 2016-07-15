@@ -7,7 +7,7 @@ Install
 Install - https://github.com/Microsoft/tfs-cli
 
 cd /iTunesConnectUpload
-npm restore 
+npm install 
 
 Open in VSCode - Build (compiles ts files)
 
